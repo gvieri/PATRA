@@ -1,0 +1,8 @@
+sample:
+  name: my Bluetooth LE Scanner
+common:
+  extra_args: DEBUG_PRINTF=1
+tests:
+  sample.bluetooth.central_hr:
+    harness: bluetooth
+    tags: bluetooth
